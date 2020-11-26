@@ -3,17 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Single Price Grid Component</title>
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 
 </head>
   <body>
-  
-    <h1>Test</h1>
-  
+    <main>
+      <div class="container">
+        <section class="section community">
+          <h2 class="section__title lg-text pm-cyan">Join our community</h2>
+          <h3 class="section__subtitle pm-yellow">30-day, hassle-free money back guarantee</h3>
+          <p class="section__text nt-grayBlue">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing theirs skills.</p>
+        </section>
+        <div class="grid">
+          <section class="block subscription">
+            <div class="block__container">
+              <h2 class="block__title sm-text nt-white">Monthly Subscription</h2>
+              <strong class="subscription__pricing nt-white">$29 <span class="nt-lightGray">per month</span></strong>
+              <p class="block__text nt-white">Full access for less than $1 a day</p>
+              <button class="btn bg-pm-yellow nt-white">Sign Up</button>
+            </div>
+          </section>
+          <section class="block about-us">
+           <div class="block__container">
+              <h2 class="block__title sm-text nt-white">Why Us</h2>
+              <ul class="block__list nt-lightGray">
+                <li>Tutorials by industry experts</li>
+                <li>Peer & expert code review</li>
+                <li>Coding exercices</li>
+                <li>Access to our Github repos</li>
+                <li>Community forum</li>
+                <li>Flashcard decks</li>
+                <li>New videos every week</li>
+              </ul>
+           </div>
+          </section>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

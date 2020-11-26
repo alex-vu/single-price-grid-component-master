@@ -1,5 +1,23 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
 body {
-  background: green; }
+  background: #121212;
+  font-size: 1.6rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  line-height: 1.15; }
+
+/*** Global Styles ***/
+.container {
+  width: 1440px;
+  margin: 0 auto; }
 
 h1 {
   color: purple; }
