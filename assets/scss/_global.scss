@@ -12,7 +12,7 @@ html {
 
 /*** Global Styles ***/
 body {
-  background: #4c2fc8;
+  background: #ebebeb;
   font-size: 1.6rem;
   font-family: "Karla", sans-serif;
   @include f400;
@@ -22,9 +22,40 @@ body {
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  line-height: 1.8;
 }
 
 .container {
-  width: 1440px;
+  width: 700px;
   margin: 0 auto;
+}
+
+.btn {
+  border: 0;
+  border-radius: 4px;
+  padding: 18px 80px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  outline: 0;
+  @include f700;
+  cursor: pointer;
+}
+
+.block {
+  padding: 50px;
+
+  &__title {
+    margin: 0 0 2.2rem 0;
+  }
+
+  &__text--btnSpacing {
+    margin-bottom: 3.6rem;
+  }
 }

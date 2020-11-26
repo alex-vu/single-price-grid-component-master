@@ -55,7 +55,7 @@ html {
 
 /*** Global Styles ***/
 body {
-  background: #4c2fc8;
+  background: #ebebeb;
   font-size: 1.6rem;
   font-family: "Karla", sans-serif;
   font-weight: 400;
@@ -63,12 +63,49 @@ body {
 
 ul,
 ol {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  line-height: 1.8; }
 
 .container {
-  width: 1440px;
+  width: 700px;
   margin: 0 auto; }
+
+.btn {
+  border: 0;
+  border-radius: 4px;
+  padding: 18px 80px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  outline: 0;
+  font-weight: 700;
+  cursor: pointer; }
+
+.block {
+  padding: 50px; }
+  .block__title {
+    margin: 0 0 2.2rem 0; }
+  .block__text--btnSpacing {
+    margin-bottom: 3.6rem; }
 
 /* Components */
 .community {
   background: #ffffff; }
+
+.subscription {
+  background: #2ab2af; }
+  .subscription__pricing {
+    font-size: 4rem; }
+    .subscription__pricing span {
+      font-size: 1.6rem;
+      display: inline-block;
+      vertical-align: middle; }
+
+.about-us {
+  background: #2ab2af;
+  opacity: 0.86; }
