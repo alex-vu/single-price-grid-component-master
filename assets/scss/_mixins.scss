@@ -1,0 +1,13 @@
+/* Mixins */
+@mixin f400 {
+  font-weight: 400;
+}
+
+@mixin f700 {
+  font-weight: 700;
+}
+
+@mixin grid($columns) {
+  display: grid;
+  grid-template-columns: $columns;
+}
