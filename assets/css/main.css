@@ -1,3 +1,49 @@
+/* Variables */
+/* Mixins */
+/*** Utility Class ***/
+/*---- Colors ----*/
+.pm-cyan {
+  color: #2ab2af; }
+
+.pm-yellow {
+  color: #c0df34; }
+
+.nt-white {
+  color: #ffffff; }
+
+.nt-grayBlue {
+  color: #98a6bd; }
+
+.nt-lightGray {
+  color: #e5eff5; }
+
+.bg-pm-yellow {
+  background: #c0df34; }
+
+.lg-text {
+  font-size: 3rem; }
+
+/*---- Layout ----*/
+.two-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.section {
+  padding: 50px; }
+
+.section__title {
+  margin: 0 0 20px 0; }
+
+.section__subtitle {
+  font-size: 1.8rem;
+  margin: 0 0 16px 0; }
+
+.section__text {
+  max-width: 600px;
+  margin: 0;
+  line-height: 1.76; }
+
+/* Default Styles */
 html {
   box-sizing: border-box;
   font-size: 10px; }
@@ -7,17 +53,22 @@ html {
 *::after {
   box-sizing: inherit; }
 
+/*** Global Styles ***/
 body {
-  background: #121212;
+  background: #4c2fc8;
   font-size: 1.6rem;
   font-family: "Karla", sans-serif;
   font-weight: 400;
   line-height: 1.15; }
 
-/*** Global Styles ***/
+ul,
+ol {
+  list-style: none; }
+
 .container {
   width: 1440px;
   margin: 0 auto; }
 
-h1 {
-  color: purple; }
+/* Components */
+.community {
+  background: #ffffff; }

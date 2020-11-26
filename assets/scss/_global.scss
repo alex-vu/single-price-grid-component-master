@@ -1,0 +1,30 @@
+/* Default Styles */
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*** Global Styles ***/
+body {
+  background: #4c2fc8;
+  font-size: 1.6rem;
+  font-family: "Karla", sans-serif;
+  @include f400;
+  line-height: 1.15;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}

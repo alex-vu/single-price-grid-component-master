@@ -1,0 +1,56 @@
+/*** Utility Class ***/
+
+/*---- Colors ----*/
+.pm-cyan {
+  color: $pm-cyan;
+}
+
+.pm-yellow {
+  color: $pm-yellow;
+}
+
+.nt-white {
+  color: $nt-white;
+}
+
+.nt-grayBlue {
+  color: $nt-grayBlue;
+}
+
+.nt-lightGray {
+  color: $nt-lightGray;
+}
+
+.bg-pm-yellow {
+  background: $pm-yellow;
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+
+/*---- Layout ----*/
+.two-block {
+  @include grid(1fr 1fr);
+}
+
+.section {
+  padding: 50px;
+}
+
+.section {
+  &__title {
+    margin: 0 0 20px 0;
+  }
+
+  &__subtitle {
+    font-size: 1.8rem;
+    margin: 0 0 16px 0;
+  }
+
+  &__text {
+    max-width: 600px;
+    margin: 0;
+    line-height: 1.76;
+  }
+}
